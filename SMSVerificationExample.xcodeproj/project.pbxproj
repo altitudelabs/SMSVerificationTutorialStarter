@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D67ACC6B1C3245730008057F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D67ACC6A1C3245730008057F /* main.m */; };
+		D67ACC6E1C3245730008057F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D67ACC6D1C3245730008057F /* AppDelegate.m */; };
+		D67ACC711C3245730008057F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67ACC701C3245730008057F /* ViewController.m */; };
+		D67ACC741C3245730008057F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67ACC721C3245730008057F /* Main.storyboard */; };
+		D67ACC771C3245730008057F /* SMSVerificationExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D67ACC751C3245730008057F /* SMSVerificationExample.xcdatamodeld */; };
+		D67ACC791C3245730008057F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67ACC781C3245730008057F /* Assets.xcassets */; };
+		D67ACC7C1C3245730008057F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67ACC7A1C3245730008057F /* LaunchScreen.storyboard */; };
+		D67ACC871C3245730008057F /* SMSVerificationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D67ACC861C3245730008057F /* SMSVerificationExampleTests.m */; };
+		D67ACC921C3245730008057F /* SMSVerificationExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D67ACC911C3245730008057F /* SMSVerificationExampleUITests.m */; };
+		D67ACCA31C3261FC0008057F /* SubmitPhoneNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67ACCA21C3261FC0008057F /* SubmitPhoneNumberViewController.m */; };
+		D67ACCA61C32621D0008057F /* VerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67ACCA51C32621D0008057F /* VerifyCodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D67ACC831C3245730008057F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67ACC5E1C3245730008057F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67ACC651C3245730008057F;
+			remoteInfo = SMSVerificationExample;
+		};
+		D67ACC8E1C3245730008057F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67ACC5E1C3245730008057F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67ACC651C3245730008057F;
+			remoteInfo = SMSVerificationExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D67ACC661C3245730008057F /* SMSVerificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSVerificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67ACC6A1C3245730008057F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D67ACC6C1C3245730008057F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D67ACC6D1C3245730008057F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D67ACC6F1C3245730008057F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D67ACC701C3245730008057F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D67ACC731C3245730008057F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D67ACC761C3245730008057F /* SMSVerificationExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMSVerificationExample.xcdatamodel; sourceTree = "<group>"; };
+		D67ACC781C3245730008057F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D67ACC7B1C3245730008057F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D67ACC7D1C3245730008057F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67ACC821C3245730008057F /* SMSVerificationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSVerificationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67ACC861C3245730008057F /* SMSVerificationExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSVerificationExampleTests.m; sourceTree = "<group>"; };
+		D67ACC881C3245730008057F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67ACC8D1C3245730008057F /* SMSVerificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSVerificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67ACC911C3245730008057F /* SMSVerificationExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSVerificationExampleUITests.m; sourceTree = "<group>"; };
+		D67ACC931C3245730008057F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67ACCA11C3261FC0008057F /* SubmitPhoneNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitPhoneNumberViewController.h; sourceTree = "<group>"; };
+		D67ACCA21C3261FC0008057F /* SubmitPhoneNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitPhoneNumberViewController.m; sourceTree = "<group>"; };
+		D67ACCA41C32621D0008057F /* VerifyCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyCodeViewController.h; sourceTree = "<group>"; };
+		D67ACCA51C32621D0008057F /* VerifyCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyCodeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D67ACC631C3245730008057F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67ACC7F1C3245730008057F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67ACC8A1C3245730008057F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D67ACC5D1C3245730008057F = {
+			isa = PBXGroup;
+			children = (
+				D67ACC681C3245730008057F /* SMSVerificationExample */,
+				D67ACC851C3245730008057F /* SMSVerificationExampleTests */,
+				D67ACC901C3245730008057F /* SMSVerificationExampleUITests */,
+				D67ACC671C3245730008057F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D67ACC671C3245730008057F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67ACC661C3245730008057F /* SMSVerificationExample.app */,
+				D67ACC821C3245730008057F /* SMSVerificationExampleTests.xctest */,
+				D67ACC8D1C3245730008057F /* SMSVerificationExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D67ACC681C3245730008057F /* SMSVerificationExample */ = {
+			isa = PBXGroup;
+			children = (
+				D67ACC6C1C3245730008057F /* AppDelegate.h */,
+				D67ACC6D1C3245730008057F /* AppDelegate.m */,
+				D67ACC6F1C3245730008057F /* ViewController.h */,
+				D67ACC701C3245730008057F /* ViewController.m */,
+				D67ACCA11C3261FC0008057F /* SubmitPhoneNumberViewController.h */,
+				D67ACCA21C3261FC0008057F /* SubmitPhoneNumberViewController.m */,
+				D67ACCA41C32621D0008057F /* VerifyCodeViewController.h */,
+				D67ACCA51C32621D0008057F /* VerifyCodeViewController.m */,
+				D67ACC721C3245730008057F /* Main.storyboard */,
+				D67ACC781C3245730008057F /* Assets.xcassets */,
+				D67ACC7A1C3245730008057F /* LaunchScreen.storyboard */,
+				D67ACC7D1C3245730008057F /* Info.plist */,
+				D67ACC751C3245730008057F /* SMSVerificationExample.xcdatamodeld */,
+				D67ACC691C3245730008057F /* Supporting Files */,
+			);
+			path = SMSVerificationExample;
+			sourceTree = "<group>";
+		};
+		D67ACC691C3245730008057F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67ACC6A1C3245730008057F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D67ACC851C3245730008057F /* SMSVerificationExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D67ACC861C3245730008057F /* SMSVerificationExampleTests.m */,
+				D67ACC881C3245730008057F /* Info.plist */,
+			);
+			path = SMSVerificationExampleTests;
+			sourceTree = "<group>";
+		};
+		D67ACC901C3245730008057F /* SMSVerificationExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D67ACC911C3245730008057F /* SMSVerificationExampleUITests.m */,
+				D67ACC931C3245730008057F /* Info.plist */,
+			);
+			path = SMSVerificationExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D67ACC651C3245730008057F /* SMSVerificationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67ACC961C3245730008057F /* Build configuration list for PBXNativeTarget "SMSVerificationExample" */;
+			buildPhases = (
+				D67ACC621C3245730008057F /* Sources */,
+				D67ACC631C3245730008057F /* Frameworks */,
+				D67ACC641C3245730008057F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSVerificationExample;
+			productName = SMSVerificationExample;
+			productReference = D67ACC661C3245730008057F /* SMSVerificationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D67ACC811C3245730008057F /* SMSVerificationExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67ACC991C3245730008057F /* Build configuration list for PBXNativeTarget "SMSVerificationExampleTests" */;
+			buildPhases = (
+				D67ACC7E1C3245730008057F /* Sources */,
+				D67ACC7F1C3245730008057F /* Frameworks */,
+				D67ACC801C3245730008057F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67ACC841C3245730008057F /* PBXTargetDependency */,
+			);
+			name = SMSVerificationExampleTests;
+			productName = SMSVerificationExampleTests;
+			productReference = D67ACC821C3245730008057F /* SMSVerificationExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D67ACC8C1C3245730008057F /* SMSVerificationExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67ACC9C1C3245730008057F /* Build configuration list for PBXNativeTarget "SMSVerificationExampleUITests" */;
+			buildPhases = (
+				D67ACC891C3245730008057F /* Sources */,
+				D67ACC8A1C3245730008057F /* Frameworks */,
+				D67ACC8B1C3245730008057F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67ACC8F1C3245730008057F /* PBXTargetDependency */,
+			);
+			name = SMSVerificationExampleUITests;
+			productName = SMSVerificationExampleUITests;
+			productReference = D67ACC8D1C3245730008057F /* SMSVerificationExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D67ACC5E1C3245730008057F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Victor;
+				TargetAttributes = {
+					D67ACC651C3245730008057F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D67ACC811C3245730008057F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D67ACC651C3245730008057F;
+					};
+					D67ACC8C1C3245730008057F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D67ACC651C3245730008057F;
+					};
+				};
+			};
+			buildConfigurationList = D67ACC611C3245730008057F /* Build configuration list for PBXProject "SMSVerificationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D67ACC5D1C3245730008057F;
+			productRefGroup = D67ACC671C3245730008057F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67ACC651C3245730008057F /* SMSVerificationExample */,
+				D67ACC811C3245730008057F /* SMSVerificationExampleTests */,
+				D67ACC8C1C3245730008057F /* SMSVerificationExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D67ACC641C3245730008057F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67ACC7C1C3245730008057F /* LaunchScreen.storyboard in Resources */,
+				D67ACC791C3245730008057F /* Assets.xcassets in Resources */,
+				D67ACC741C3245730008057F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67ACC801C3245730008057F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67ACC8B1C3245730008057F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D67ACC621C3245730008057F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67ACCA61C32621D0008057F /* VerifyCodeViewController.m in Sources */,
+				D67ACC711C3245730008057F /* ViewController.m in Sources */,
+				D67ACC771C3245730008057F /* SMSVerificationExample.xcdatamodeld in Sources */,
+				D67ACCA31C3261FC0008057F /* SubmitPhoneNumberViewController.m in Sources */,
+				D67ACC6E1C3245730008057F /* AppDelegate.m in Sources */,
+				D67ACC6B1C3245730008057F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67ACC7E1C3245730008057F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67ACC871C3245730008057F /* SMSVerificationExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67ACC891C3245730008057F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67ACC921C3245730008057F /* SMSVerificationExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67ACC841C3245730008057F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D67ACC651C3245730008057F /* SMSVerificationExample */;
+			targetProxy = D67ACC831C3245730008057F /* PBXContainerItemProxy */;
+		};
+		D67ACC8F1C3245730008057F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D67ACC651C3245730008057F /* SMSVerificationExample */;
+			targetProxy = D67ACC8E1C3245730008057F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D67ACC721C3245730008057F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67ACC731C3245730008057F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D67ACC7A1C3245730008057F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67ACC7B1C3245730008057F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D67ACC941C3245730008057F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D67ACC951C3245730008057F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D67ACC971C3245730008057F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SMSVerificationExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.SMSVerificationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D67ACC981C3245730008057F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SMSVerificationExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.SMSVerificationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D67ACC9A1C3245730008057F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMSVerificationExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.SMSVerificationExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSVerificationExample.app/SMSVerificationExample";
+			};
+			name = Debug;
+		};
+		D67ACC9B1C3245730008057F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMSVerificationExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.SMSVerificationExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSVerificationExample.app/SMSVerificationExample";
+			};
+			name = Release;
+		};
+		D67ACC9D1C3245730008057F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMSVerificationExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.SMSVerificationExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMSVerificationExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D67ACC9E1C3245730008057F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMSVerificationExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.SMSVerificationExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMSVerificationExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D67ACC611C3245730008057F /* Build configuration list for PBXProject "SMSVerificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67ACC941C3245730008057F /* Debug */,
+				D67ACC951C3245730008057F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67ACC961C3245730008057F /* Build configuration list for PBXNativeTarget "SMSVerificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67ACC971C3245730008057F /* Debug */,
+				D67ACC981C3245730008057F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D67ACC991C3245730008057F /* Build configuration list for PBXNativeTarget "SMSVerificationExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67ACC9A1C3245730008057F /* Debug */,
+				D67ACC9B1C3245730008057F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D67ACC9C1C3245730008057F /* Build configuration list for PBXNativeTarget "SMSVerificationExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67ACC9D1C3245730008057F /* Debug */,
+				D67ACC9E1C3245730008057F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D67ACC751C3245730008057F /* SMSVerificationExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D67ACC761C3245730008057F /* SMSVerificationExample.xcdatamodel */,
+			);
+			currentVersion = D67ACC761C3245730008057F /* SMSVerificationExample.xcdatamodel */;
+			path = SMSVerificationExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D67ACC5E1C3245730008057F /* Project object */;
+}
